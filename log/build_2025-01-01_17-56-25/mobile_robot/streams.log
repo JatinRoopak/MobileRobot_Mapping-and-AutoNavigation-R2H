@@ -1,0 +1,22 @@
+[0.756s] Invoking command in '/home/jojodido/ros2_ws/src/mobile_robot': PYTHONPATH=/home/jojodido/ros2_ws/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jojodido/ros2_ws/install/mobile_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mobile_robot build --build-base /home/jojodido/ros2_ws/build/mobile_robot/build install --record /home/jojodido/ros2_ws/build/mobile_robot/install.log --single-version-externally-managed install_data
+[0.915s] running egg_info
+[0.916s] writing ../../build/mobile_robot/mobile_robot.egg-info/PKG-INFO
+[0.916s] writing dependency_links to ../../build/mobile_robot/mobile_robot.egg-info/dependency_links.txt
+[0.916s] writing entry points to ../../build/mobile_robot/mobile_robot.egg-info/entry_points.txt
+[0.916s] writing requirements to ../../build/mobile_robot/mobile_robot.egg-info/requires.txt
+[0.916s] writing top-level names to ../../build/mobile_robot/mobile_robot.egg-info/top_level.txt
+[0.917s] reading manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+[0.918s] adding license file 'LICENSE'
+[0.918s] writing manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+[0.918s] running build
+[0.918s] running build_py
+[0.918s] running install
+[0.918s] running install_lib
+[0.919s] running install_data
+[0.919s] copying config/my_controllers.yaml -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/config
+[0.920s] running install_egg_info
+[0.921s] removing '/home/jojodido/ros2_ws/install/mobile_robot/lib/python3.10/site-packages/mobile_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[0.921s] Copying ../../build/mobile_robot/mobile_robot.egg-info to /home/jojodido/ros2_ws/install/mobile_robot/lib/python3.10/site-packages/mobile_robot-0.0.0-py3.10.egg-info
+[0.922s] running install_scripts
+[0.938s] writing list of installed files to '/home/jojodido/ros2_ws/build/mobile_robot/install.log'
+[0.967s] Invoked command in '/home/jojodido/ros2_ws/src/mobile_robot' returned '0': PYTHONPATH=/home/jojodido/ros2_ws/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jojodido/ros2_ws/install/mobile_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mobile_robot build --build-base /home/jojodido/ros2_ws/build/mobile_robot/build install --record /home/jojodido/ros2_ws/build/mobile_robot/install.log --single-version-externally-managed install_data

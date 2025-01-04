@@ -1,0 +1,47 @@
+[0.718s] Invoking command in '/home/jojodido/ros2_ws/src/Advancing_motion_mapping_mobileBOT_R2H/my_robot_controller': PYTHONPATH=/home/jojodido/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jojodido/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_robot_controller build --build-base /home/jojodido/ros2_ws/build/my_robot_controller/build install --record /home/jojodido/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[0.880s] running egg_info
+[0.880s] creating ../../../build/my_robot_controller/my_robot_controller.egg-info
+[0.881s] writing ../../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[0.881s] writing dependency_links to ../../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[0.881s] writing entry points to ../../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[0.881s] writing requirements to ../../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[0.881s] writing top-level names to ../../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[0.881s] writing manifest file '../../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.882s] reading manifest file '../../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.883s] writing manifest file '../../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.883s] running build
+[0.883s] running build_py
+[0.883s] creating /home/jojodido/ros2_ws/build/my_robot_controller/build
+[0.883s] creating /home/jojodido/ros2_ws/build/my_robot_controller/build/lib
+[0.884s] creating /home/jojodido/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[0.884s] copying my_robot_controller/pose_sub.py -> /home/jojodido/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[0.884s] copying my_robot_controller/first_node.py -> /home/jojodido/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[0.884s] copying my_robot_controller/draw_circle.py -> /home/jojodido/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[0.884s] copying my_robot_controller/__init__.py -> /home/jojodido/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[0.884s] running install
+[0.884s] running install_lib
+[0.884s] creating /home/jojodido/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.884s] copying /home/jojodido/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/pose_sub.py -> /home/jojodido/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.884s] copying /home/jojodido/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/first_node.py -> /home/jojodido/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.884s] copying /home/jojodido/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/draw_circle.py -> /home/jojodido/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.884s] copying /home/jojodido/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/jojodido/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.885s] byte-compiling /home/jojodido/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/pose_sub.py to pose_sub.cpython-310.pyc
+[0.885s] byte-compiling /home/jojodido/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/first_node.py to first_node.cpython-310.pyc
+[0.885s] byte-compiling /home/jojodido/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/draw_circle.py to draw_circle.cpython-310.pyc
+[0.886s] byte-compiling /home/jojodido/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[0.886s] running install_data
+[0.886s] creating /home/jojodido/ros2_ws/install/my_robot_controller/share/ament_index
+[0.886s] creating /home/jojodido/ros2_ws/install/my_robot_controller/share/ament_index/resource_index
+[0.886s] creating /home/jojodido/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[0.886s] copying resource/my_robot_controller -> /home/jojodido/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[0.886s] copying package.xml -> /home/jojodido/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[0.886s] creating /home/jojodido/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch
+[0.886s] copying launch/spawn_robot.launch.py -> /home/jojodido/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch
+[0.886s] running install_egg_info
+[0.888s] Copying ../../../build/my_robot_controller/my_robot_controller.egg-info to /home/jojodido/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[0.889s] running install_scripts
+[0.904s] Installing drawcircle script to /home/jojodido/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.904s] Installing pose_sub script to /home/jojodido/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.904s] Installing test_node script to /home/jojodido/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.904s] writing list of installed files to '/home/jojodido/ros2_ws/build/my_robot_controller/install.log'
+[0.933s] Invoked command in '/home/jojodido/ros2_ws/src/Advancing_motion_mapping_mobileBOT_R2H/my_robot_controller' returned '0': PYTHONPATH=/home/jojodido/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jojodido/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_robot_controller build --build-base /home/jojodido/ros2_ws/build/my_robot_controller/build install --record /home/jojodido/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data

@@ -1,0 +1,27 @@
+running develop
+running egg_info
+writing mobile_robot.egg-info/PKG-INFO
+writing dependency_links to mobile_robot.egg-info/dependency_links.txt
+writing entry points to mobile_robot.egg-info/entry_points.txt
+writing requirements to mobile_robot.egg-info/requires.txt
+writing top-level names to mobile_robot.egg-info/top_level.txt
+reading manifest file 'mobile_robot.egg-info/SOURCES.txt'
+writing manifest file 'mobile_robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jojodido/ros2_ws/install/mobile_robot/lib/python3.10/site-packages/mobile-robot.egg-link (link to .)
+
+Installed /home/jojodido/ros2_ws/build/mobile_robot
+running symlink_data
+symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/resource/mobile_robot -> /home/jojodido/ros2_ws/install/mobile_robot/share/ament_index/resource_index/packages
+symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/package.xml -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot
+symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/launch/viz.launch.py -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/launch
+symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/description/robot_core.xacro -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/description
+symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/description/camera.xacro -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/description
+symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/description/lidar.xacro -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/description
+symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/description/gazebo_control.xacro -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/description
+symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/description/ros2_control.xacro -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/description
+symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/description/robot.urdf.xacro -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/description
+symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/worlds/museum.world -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/worlds
+symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/config/my_controllers.yaml -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/config
+symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/config/gazebo_params.yaml -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/config
+symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/config/teleop.yaml -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/config

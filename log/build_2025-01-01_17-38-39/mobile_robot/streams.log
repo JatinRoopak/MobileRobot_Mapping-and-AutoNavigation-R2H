@@ -1,0 +1,29 @@
+[0.794s] Invoking command in '/home/jojodido/ros2_ws/build/mobile_robot': PYTHONPATH=/home/jojodido/ros2_ws/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jojodido/ros2_ws/install/mobile_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jojodido/ros2_ws/build/mobile_robot/build --no-deps symlink_data --force
+[0.975s] running develop
+[1.079s] running egg_info
+[1.079s] writing mobile_robot.egg-info/PKG-INFO
+[1.079s] writing dependency_links to mobile_robot.egg-info/dependency_links.txt
+[1.079s] writing entry points to mobile_robot.egg-info/entry_points.txt
+[1.079s] writing requirements to mobile_robot.egg-info/requires.txt
+[1.079s] writing top-level names to mobile_robot.egg-info/top_level.txt
+[1.081s] reading manifest file 'mobile_robot.egg-info/SOURCES.txt'
+[1.082s] writing manifest file 'mobile_robot.egg-info/SOURCES.txt'
+[1.083s] running build_ext
+[1.083s] Creating /home/jojodido/ros2_ws/install/mobile_robot/lib/python3.10/site-packages/mobile-robot.egg-link (link to .)
+[1.084s] 
+[1.084s] Installed /home/jojodido/ros2_ws/build/mobile_robot
+[1.084s] running symlink_data
+[1.084s] symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/resource/mobile_robot -> /home/jojodido/ros2_ws/install/mobile_robot/share/ament_index/resource_index/packages
+[1.084s] symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/package.xml -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot
+[1.084s] symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/launch/viz.launch.py -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/launch
+[1.084s] symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/description/robot_core.xacro -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/description
+[1.084s] symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/description/camera.xacro -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/description
+[1.084s] symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/description/lidar.xacro -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/description
+[1.084s] symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/description/gazebo_control.xacro -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/description
+[1.085s] symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/description/ros2_control.xacro -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/description
+[1.085s] symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/description/robot.urdf.xacro -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/description
+[1.085s] symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/worlds/museum.world -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/worlds
+[1.085s] symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/config/my_controllers.yaml -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/config
+[1.085s] symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/config/gazebo_params.yaml -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/config
+[1.085s] symbolically linking /home/jojodido/ros2_ws/build/mobile_robot/config/teleop.yaml -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/config
+[1.114s] Invoked command in '/home/jojodido/ros2_ws/build/mobile_robot' returned '0': PYTHONPATH=/home/jojodido/ros2_ws/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jojodido/ros2_ws/install/mobile_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jojodido/ros2_ws/build/mobile_robot/build --no-deps symlink_data --force
