@@ -1,0 +1,36 @@
+running develop
+Removing /home/jojodido/ros2_ws/install/mobile_robot/lib/python3.10/site-packages/mobile-robot.egg-link (link to .)
+running egg_info
+writing ../../build/mobile_robot/mobile_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/mobile_robot/mobile_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/mobile_robot/mobile_robot.egg-info/entry_points.txt
+writing requirements to ../../build/mobile_robot/mobile_robot.egg-info/requires.txt
+writing top-level names to ../../build/mobile_robot/mobile_robot.egg-info/top_level.txt
+reading manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/jojodido/ros2_ws/install/mobile_robot/lib/python3.10/site-packages/mobile_robot
+copying /home/jojodido/ros2_ws/build/mobile_robot/build/lib/mobile_robot/__init__.py -> /home/jojodido/ros2_ws/install/mobile_robot/lib/python3.10/site-packages/mobile_robot
+byte-compiling /home/jojodido/ros2_ws/install/mobile_robot/lib/python3.10/site-packages/mobile_robot/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/mobile_robot -> /home/jojodido/ros2_ws/install/mobile_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot
+copying launch/viz.launch.py -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/launch
+copying description/robot_core.xacro -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/description
+copying description/camera.xacro -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/description
+copying description/lidar.xacro -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/description
+copying description/gazebo_control.xacro -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/description
+copying description/ros2_control.xacro -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/description
+copying description/robot.urdf.xacro -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/description
+copying worlds/museum.world -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/worlds
+copying config/my_controllers.yaml -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/config
+copying config/gazebo_params.yaml -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/config
+copying config/teleop.yaml -> /home/jojodido/ros2_ws/install/mobile_robot/share/mobile_robot/config
+running install_egg_info
+Copying ../../build/mobile_robot/mobile_robot.egg-info to /home/jojodido/ros2_ws/install/mobile_robot/lib/python3.10/site-packages/mobile_robot-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/jojodido/ros2_ws/build/mobile_robot/install.log'
