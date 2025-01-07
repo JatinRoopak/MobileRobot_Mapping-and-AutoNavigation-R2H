@@ -74,6 +74,21 @@ def generate_launch_description():
         condition=IfCondition(use_ros2_control)
     )
 
+    # twist_mux configuration file
+    twist_mux_params = os.path.join(get_package_share_directory(package_name), 
+                                   'config', 
+                                   'twist_mux.yaml')
+    
+    # twist_mux node
+    twist_mux_node = Node(
+        package='twist_mux',
+        executable='twist_mux',
+        name='twist_mux',
+        parameters=[twist_mux_params],
+        remappings=[('/cmd_vel_out', '/diff_cont/cmd_vel_unstamped')],
+        output='screen'
+    )
+
     # Launch!
     return LaunchDescription([
         DeclareLaunchArgument(
@@ -89,5 +104,6 @@ def generate_launch_description():
         spawn_entity,
         load_joint_broadcaster,
         load_diff_drive_controller,
+        twist_mux_node,
         #joint_state_publisher_gui
     ])
