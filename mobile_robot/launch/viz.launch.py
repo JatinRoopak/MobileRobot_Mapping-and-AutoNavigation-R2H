@@ -89,11 +89,36 @@ def generate_launch_description():
         output='screen'
     )
 
+
+    # SLAM toolbox
+    slam_params_file = os.path.join(pkg_path, 'config', 'mapper_params_online_async.yaml')
+    slam_toolbox = Node(
+        parameters=[
+            slam_params_file,
+            {'use_sim_time': use_sim_time}
+        ],
+        package='slam_toolbox',
+        executable='async_slam_toolbox_node',
+        name='slam_toolbox',
+        output='screen'
+    )
+
+    # Rviz 2
+    rviz_config_file = os.path.join(pkg_path, 'config', 'rviz_config_nav2.rviz')
+    rviz_node = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        arguments=['-d', rviz_config_file],
+        parameters=[{'use_sim_time': use_sim_time}],
+        output='screen'
+    )
+
     # Launch!
     return LaunchDescription([
         DeclareLaunchArgument(
             'use_sim_time',
-            default_value='false',  # Changed to true since we're using Gazebo
+            default_value='true',  # Changed to true since we're using Gazebo
             description='Use sim time if true'),
         DeclareLaunchArgument(
             'use_ros2_control',
@@ -105,5 +130,7 @@ def generate_launch_description():
         load_joint_broadcaster,
         load_diff_drive_controller,
         twist_mux_node,
+        slam_toolbox,
+        rviz_node,
         #joint_state_publisher_gui
     ])
