@@ -78,7 +78,7 @@ def generate_launch_description():
     return LaunchDescription([
         DeclareLaunchArgument(
             'use_sim_time',
-            default_value='false',  # Changed to true since we're using Gazebo
+            default_value='true',  # Changed to true since we're using Gazebo
             description='Use sim time if true'),
         DeclareLaunchArgument(
             'use_ros2_control',
